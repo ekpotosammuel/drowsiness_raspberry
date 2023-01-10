@@ -65,7 +65,7 @@ while True:
 				GPIO.output(4, GPIO.LOW)
 
 				# Cleanup the GPIO settings
-GPIO.cleanup()
+				GPIO.cleanup()
 		else:
 			flag = 0
 	cv2.imshow("Frame", frame)
